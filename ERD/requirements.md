@@ -70,6 +70,4 @@
     - property_id in the Property and Booking tables.
     - booking_id in the Booking and Payment tables.
 
-**[Database ER Diagram](https://drive.google.com/file/d/1mGWNbnAz56f1IK_nos1IrFGUNE5T5dEw/view?usp=drive_link)**
-
-![ER diagram](https://imgur.com/a/BnrtbS2)
+**[Database ER Diagram](https://drive.google.com/file/d/1mGWNbnAz56f1IK_nos1IrFGUNE5T5dEw/view?usp=sharing)**
