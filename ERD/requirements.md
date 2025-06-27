@@ -71,3 +71,5 @@
     - booking_id in the Booking and Payment tables.
 
 **[Database ER Diagram](https://drive.google.com/file/d/1mGWNbnAz56f1IK_nos1IrFGUNE5T5dEw/view?usp=drive_link)**
+
+<iframe src="https://drive.google.com/file/d/1mGWNbnAz56f1IK_nos1IrFGUNE5T5dEw/preview" width="640" height="480" allow="autoplay"></iframe>
