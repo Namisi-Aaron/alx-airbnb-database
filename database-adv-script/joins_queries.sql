@@ -15,7 +15,8 @@ SELECT
 	b.comment
 FROM airbnb_clone_0."Property" a
 LEFT JOIN airbnb_clone_0."Review" b
-ON a.property_id = b.property_id;
+ON a.property_id = b.property_id
+ORDER a.property_id;
 
 -- Retrieves all users and all bookings (all records), even if the user has no booking or a booking is not linked to a user.
 
