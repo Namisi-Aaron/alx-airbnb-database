@@ -2,7 +2,7 @@
 
 SELECT
 	a.booking_id,
-	first_name || ' ' || b.last_name guest_name
+	b.first_name || ' ' || b.last_name guest_name
 FROM airbnb_clone_0."Booking" a
 INNER JOIN airbnb_clone_0."User" b
 ON a.user_id = b.user_id
