@@ -24,3 +24,18 @@ CREATE INDEX idx_review_user ON airbnb_clone_0."Review" (user_id);
 CREATE INDEX idx_message_id ON airbnb_clone_0."Message" (message_id);
 CREATE INDEX idx_message_sender ON airbnb_clone_0."Message" (sender_id);
 CREATE INDEX idx_message_recipient ON airbnb_clone_0."Message" (recipient_id);
+
+
+EXPLAIN ANALYZE SELECT
+    name,
+    average_rating
+FROM (
+	SELECT
+        a.property_id,
+        a.name,
+        CAST(AVG(b.rating) AS integer) average_rating
+	FROM airbnb_clone_0."Property" a LEFT JOIN airbnb_clone_0."Review" b
+	ON a.property_id = b.property_id
+	GROUP BY a.property_id, a.name
+)
+WHERE average_rating > 4;
