@@ -1,6 +1,6 @@
 ## Perfomance Monitoring
 
-Performance measures put in place to ensure optimal perfomance include:
+Measures put in place to ensure optimal perfomance and faster query execution include:
  - Creating indexes on columns used in WHERE, JOIN, ORDER BY, and GROUP BY clauses.
 
  - Using the WHERE clause to filter as early as possible.
@@ -16,4 +16,3 @@ Performance measures put in place to ensure optimal perfomance include:
  - Avoiding functions on indexed columns.
 
  - Partitioning large tables like the *Booking* table.
- 
